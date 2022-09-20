@@ -15,6 +15,6 @@ public class QueueTriggerFunction {
             @ServiceBusQueueTrigger(name = "message", queueName = "aksmsservicequeue", connection = "MyStorageConnectionAppSetting") String message,
             final ExecutionContext context
     ) {
-        context.getLogger().info("Hello Hi Java " + message);
+        context.getLogger().info("Service Bus Queue trigger function processed a message: " + message);
     }
 }
