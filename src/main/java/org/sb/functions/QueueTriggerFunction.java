@@ -4,7 +4,7 @@ import com.microsoft.azure.functions.annotation.*;
 import com.microsoft.azure.functions.*;
 
 /**
- * Azure Functions with Azure Storage Queue trigger.
+ * Azure Functions with Azure Storage Queue trigg
  */
 public class QueueTriggerFunction {
     /**
